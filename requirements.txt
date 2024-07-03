@@ -1,0 +1,6 @@
+pandas
+networkx
+python-dotenv
+langchain
+langgraph
+langchain-openai
