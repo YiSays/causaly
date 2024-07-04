@@ -50,6 +50,7 @@ with query_form:
 
 with output_container:
     if st.session_state.output:
+        st.markdown(f"**Query:** {query}")
         st.markdown("**AGENT GENERATION:**")
         st.markdown(st.session_state.output.get("generation"))
         st.button("Clear", on_click=clear)
